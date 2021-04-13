@@ -13,6 +13,7 @@
 
   <name>email-sdk-kotlin</name>
 
+
   <properties>
     <jdk.version>11</jdk.version>
 
