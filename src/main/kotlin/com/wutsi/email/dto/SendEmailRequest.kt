@@ -10,6 +10,6 @@ public data class SendEmailRequest(
   public val subject: String = "",
   public val body: String = "",
   public val contentType: String = "",
-  public val language: String = "",
+  public val contentLanguage: String = "",
   public val campaign: String? = null
 )
