@@ -11,7 +11,7 @@ public interface EmailApi {
   @RequestLine("POST /v1/emails")
   public fun send(request: SendEmailRequest): Unit
 
-  @RequestLine("DELETE /v1/sites/{site-id}/list/members?site-id={site-id}&email={email}&user-id={user-id}")
+  @RequestLine("DELETE /v1/sites/{site-id}/list/members?email={email}&user-id={user-id}")
   public fun unsubscribe(
     @Param("site-id") siteId: Long,
     @Param("email") email: String,
