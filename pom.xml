@@ -6,7 +6,7 @@
 
   <artifactId>email-sdk-kotlin</artifactId>
   <groupId>com.wutsi.email</groupId>
-  <version>1.4.7-SNAPSHOT</version>
+  <version>1.4.7</version>
   <packaging>jar</packaging>
 
   <name>email-sdk-kotlin</name>
@@ -55,7 +55,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/wutsi/email-sdk-kotlin.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>email-sdk-kotlin-1.4.7</tag>
   </scm>
 
   <distributionManagement>
